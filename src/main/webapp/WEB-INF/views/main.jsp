@@ -10,7 +10,7 @@
     <div>Main ! JSP</div>
     <div>Board</div>
     <div>
-        <a></a>
+        <a href="/board/form">/board/form BoardController form() /board/form.jsp</a>
     </div>
 </body>
 </html>

@@ -9,39 +9,46 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 </head>
 <body>
-    <div>/board/form</div>
+    <div>/board/view</div>
     <div class="container">
-    <form action="/board/form" method="post">
         <table class="table">
             <tr>
                 <td>Title</td>
                 <td>
-                    <input type="text" name="title" id="" class="form-control">
+                    Ditto
                 </td>
             </tr>
             <tr>
                 <td>Content</td>
                 <td>
-                    <textarea class="form-control" name="content" id="" cols="30" rows="10"></textarea>
+                        Stay in the middle
+                        Like you a little
+                        Don’t want no riddle
+                        말해줘 say it back
+                        Oh say it ditto
+                        아침은 너무 멀어
+                        So say it ditto
                 </td>
             </tr>
             <tr>
                 <td>userName</td>
                 <td>
-                    <input type="text" name="userName" id="" class="form-control">
+                    NewJeans
                 </td>
             </tr>
             <tr>
                 <td>Date</td>
-                <td><input type="date" name="date" id="" class="form-control"></td>
+                <td>2022.12.19</td>
             </tr>
             <tr>
-                <td colspan="2" class="text-center">
-                    <button class="btn btn-outline-primary">Submit</button>
+                <td class="text-center">
+                    <a href="/board/edit" class="btn btn-outline-primary">Edit</a>
+                </td>
+                <td class="text-center">
+                    <a href="/board/list" class="btn btn-outline-primary">List</a>
                 </td>
             </tr>
         </table>
-        </form>
     </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

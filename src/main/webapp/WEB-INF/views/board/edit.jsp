@@ -9,35 +9,42 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 </head>
 <body>
-    <div>/board/form</div>
+    <div>/board/edit</div>
     <div class="container">
-    <form action="/board/form" method="post">
+    <form action="/board/edit" method="post">
         <table class="table">
             <tr>
                 <td>Title</td>
                 <td>
-                    <input type="text" name="title" id="" class="form-control">
+                    <input type="text" name="title" id="" class="form-control" value="Ditto">
                 </td>
             </tr>
             <tr>
                 <td>Content</td>
                 <td>
-                    <textarea class="form-control" name="content" id="" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" name="content" id="" cols="30" rows="10">
+Stay in the middle
+Like you a little
+Don’t want no riddle
+말해줘 say it back
+Oh say it ditto
+아침은 너무 멀어
+So say it ditto</textarea>
                 </td>
             </tr>
             <tr>
                 <td>userName</td>
                 <td>
-                    <input type="text" name="userName" id="" class="form-control">
+                    <input type="text" name="userName" id="" class="form-control" value="NewJeans">
                 </td>
             </tr>
             <tr>
                 <td>Date</td>
-                <td><input type="date" name="date" id="" class="form-control"></td>
+                <td><input type="date" name="date" id="" class="form-control" value="2022-12-19"></td>
             </tr>
             <tr>
                 <td colspan="2" class="text-center">
-                    <button class="btn btn-outline-primary">Submit</button>
+                    <button class="btn btn-outline-primary">Edit</button>
                 </td>
             </tr>
         </table>
